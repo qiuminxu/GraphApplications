@@ -1,0 +1,3 @@
+./PageRank PageRank/s14.edge pr_in pr_out 16384 6
+#./PageRank PageRank/wiki-Vote.txt pr_in pr_out 7115 6
+

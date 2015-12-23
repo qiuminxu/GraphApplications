@@ -1,0 +1,17 @@
+Page Rank (PR) implements the famous algorithm used by Google to rank websites.
+This implementation uses Mars MapReduce framework on GPU.
+
+References:
+1. B. He, W. Fang, Q. Luo, N. K. Govindaraju, and T. Wang, “Mars: A
+mapreduce framework on graphics processors,” in Proceedings of the
+17th International Conference on Parallel Architectures and Compilation
+Techniques, 2008, pp. 260–269.
+
+2. K. Shirahata, H. Sato, T. Suzumura, and S. Matsuoka, “A scalable
+implementation of a mapreduce-based graph processing algorithm for
+large-scale heterogeneous supercomputers,” in 13th IEEE/ACM International
+Symposium on Cluster, Cloud and Grid Computing,, May 2013,
+pp. 277–284.
+
+
+

@@ -1,0 +1,2 @@
+./clu -a 6 -m 2 data/belgium.osm.graph.bz2
+#./clu -a 6 -m 2 data/coAuthorsCiteseer.graph.bz2

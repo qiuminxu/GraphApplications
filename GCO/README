@@ -1,0 +1,10 @@
+Graph Coloring (GCO) partitions the vertices of a graph such that
+no two adjacent matrices share the same color.  
+
+
+References:
+
+A. V. P. Grosset, P. Zhu, S. Liu, S. Venkatasubramanian, and M. Hall,
+“Evaluating graph coloring on gpus,” in Proceedings of the 16th ACM
+Symposium on Principles and Practice of Parallel Programming, 2011,
+pp. 297–298.

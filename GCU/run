@@ -1,0 +1,2 @@
+./cudaCuts data/flower.txt 
+#./cudaCuts data/person.txt 

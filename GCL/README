@@ -1,0 +1,14 @@
+Graph Clustering (GCL) is concerned with partitioning the vertices of
+a given graph into sets consisting of vertices related to each other. 
+It is a ubiquitous subtask in many applications, such as social networks,
+image processing and gene engineering.
+
+References:
+1. B. F. Auer, “Gpu acceleration of graph matching, clustering, and
+partitioning,” in Contemporary Mathematics, vol. 588, 2013, pp. 223–
+240.
+
+2. D. A. Bader, H. Meyerhenke, P. Sanders, and D. Wagner, “10th dimacs
+implementation challenge on graph partitioning and graph clustering,”
+vol. 588, 2013.
+ 

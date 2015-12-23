@@ -1,0 +1,10 @@
+Maximal Independent Set (MIS) finds a maximal collection of vertices
+in a graph such that no pair of vertices is adjacent.
+
+References:
+1. “Cusp : A c++ templated sparse matrix library,”
+http://cusplibrary.github.com.
+
+2. M. Luby, “A simple parallel algorithm for the maximal independent set
+problem,” in Proceedings of the Seventeenth Annual ACM Symposium
+on Theory of Computing, 1985, pp. 1–10.

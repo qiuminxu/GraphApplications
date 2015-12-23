@@ -1,0 +1,2 @@
+./match -r -d 1 -a 6 --gnuplot data/random.dat -m 6 data/coAuthorsCiteseer.graph.bz2
+#./match -r -d 1 -a 6 --gnuplot data/random.dat -m 6 data/in-2004.graph.bz2

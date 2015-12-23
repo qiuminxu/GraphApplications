@@ -1,0 +1,14 @@
+Graph Cuts (GCU) partitions the vertices of a graph into two disjoint
+subsets that are joined by at least one edge. It can be employed to 
+efficiently solve a wide variety of low level computer vision problems,
+such as image segmentation, stereo vision, image restoration. The maxflow
+/ mincut algorithm to compute graph cuts is computationally expensive.
+
+References:
+1. Vineet , V. and Narayanan, P. J., “Cuda cuts: Fast graph cuts on the
+gpu,” in Computer Vision and Pattern Recognition Workshops, IEEE
+Computer Society Conference on, June 2008, pp. 1–8.
+
+2. Vineet, V. and Narayanan, P. J., “Cuda cuts: Fast graph cuts on the gpu,”
+in Technical Report, International Institute of Information Technology,
+Hyderabd.

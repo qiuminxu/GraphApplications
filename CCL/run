@@ -1,0 +1,2 @@
+./ccl_le_gpu data/trojan.dat 
+#./ccl_le_gpu data/logo.dat

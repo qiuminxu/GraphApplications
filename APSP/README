@@ -1,0 +1,7 @@
+All Pairs Shortest Path (APSP) is used to find the shortest path between each pair of vertices in a weighted graph.
+
+References:
+1. R. W. Floyd, “Algorithm 97: Shortest path,” Commun. ACM, vol. 5,
+no. 6, pp. 345–, Jun. 1962.
+2. A. Buluc¸, J. R. Gilbert, and C. Budak, “Solving path problems on the
+gpu,” vol. 36, no. 5-6, June 2010, pp. 241–253.

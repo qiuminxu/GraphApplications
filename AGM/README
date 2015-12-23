@@ -1,0 +1,12 @@
+Approximate Graph Matching is used to find maximal independent edge set in a graph. It
+has applications in minimizing power consumption in wireless networks, solving traveling sales person problem, organ donation matching programs, and graph coarsening in computer vision.
+
+References:
+1. B. Fagginger Auer and R. Bisseling, “A gpu algorithm for greedy graph
+matching,” in Facing the Multicore - Challenge II, vol. 7174, 2012, pp.
+108–119.
+
+2. D. A. Bader, H. Meyerhenke, P. Sanders, and D. Wagner, “10th dimacs
+implementation challenge on graph partitioning and graph clustering,”
+vol. 588, 2013.
+ 
