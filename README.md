@@ -3,8 +3,6 @@ This suite contains Graph Applications used in the following IISWC paper:
 
 Q. Xu, H. Jeon, M. Annavaram (University of Southern California), Graph processing on GPUs: Where are the bottlenecks?, In Proceedings of the IEEE International Symposium on Workload Characterization (IISWC), Oct. 2014. 
 
-BFS, MST, SP, SSSP which are from existing benchmark suites (Rodinia, Lonestar) are not listed here.
-
 Please cite if your use of this repository results in a publication. 
 
 #System Requirements
@@ -19,14 +17,14 @@ Please cite if your use of this repository results in a publication.
 1. Put the Graph Application folder under NVIDIA_GPU_Computing_SDK4/C/ directory
 2. Add the following lines in NVIDIA_GPU_Computing_SDK4/C/common/common.mk 
 
-ifeq ($(USEBOOST),1)
-  LIB += -lboost_iostreams-mt -lboost_program_options-mt
-endif
+  ifeq ($(USEBOOST),1)
+    LIB += -lboost_iostreams-mt -lboost_program_options-mt
+  endif
 
-ifeq ($(USETBB),1)
-  LIB += -ltbb
-endif
-
+  ifeq ($(USETBB),1)
+    LIB += -ltbb
+  endif
+  
 3. Step into each folder and type make. 
 
 #Running
@@ -35,4 +33,6 @@ endif
    A detailed instruction is provided here: http://iss.ices.utexas.edu/?p=projects/galois/lonestargpu/gpgpusim 
    Other benchmarks work well with CUDA4.0. 
 
+#Notice
+BFS, MST, SP, SSSP are not included here. Please refer to other existing benchmark suites (Rodinia, Lonestar).
 
